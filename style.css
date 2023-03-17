@@ -1,0 +1,21 @@
+span {
+    display: inline-block;
+}
+input {
+    height: 0;
+    width: 0;
+}
+.outer {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}
+.inner {
+    display: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+input:checked+label .inner {
+    display: inline-block;
+}
